@@ -108,28 +108,39 @@ streamlit run app.py
 ## 🛠️ TODO (Future Development)
 
 - Fully implement **drag-and-drop folders** directly into the Streamlit app
+
 - Support **web deployment** with ZIP upload fallback
+
 - Add **branch selection** before push
+
 - Show **file tree preview** before commit (currently basic structure)
+
 - Option to **select multiple folders** at once
+
 - Add **repository search and selection** for deletion
 
+  
 
+  ```
+  github-repo-manager/
+   │
+   ├─ app.py              			   # Main Streamlit app
+   ├─ requirements.txt    		   # Python dependencies
+   ├─ README.md           		   # Project documentation
+   ├─ utils/
+   │   ├─ github_utils.py    		# Functions for GitHub API interactions (create, delete repo)
+   │   └─ git_utils.py      		     # Functions for git init, commit, push
+   ├─ assets/
+   │   └─ logo.png      		         # Optional logo or images for the dashboard
+   ├─ examples/
+   │   └─ sample_folder/     	       # Example local folder structure to test upload
+   │       ├─ file1.txt
+   │       ├─ file2.py
+   │       └─ subfolder/
+   │           └─ file3.md
+   └─ .gitignore        		            # Ignore unnecessary local files 
+  
+  give me code for mermaidchart
+  ```
 
-github-repo-manager/
- │
- ├─ app.py              			   # Main Streamlit app
- ├─ requirements.txt    		   # Python dependencies
- ├─ README.md           		    # Project documentation
- ├─ utils/
- │   ├─ github_utils.py    		  # Functions for GitHub API interactions (create, delete repo)
- │   └─ git_utils.py      		       # Functions for git init, commit, push
- ├─ assets/
- │   └─ logo.png      		           # Optional logo or images for the dashboard
- ├─ examples/
- │   └─ sample_folder/     	        # Example local folder structure to test upload
- │       ├─ file1.txt
- │       ├─ file2.py
- │       └─ subfolder/
- │           └─ file3.md
- └─ .gitignore        		             # Ignore unnecessary local files
+  
